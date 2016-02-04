@@ -7,7 +7,7 @@ Simple way to get your [Jekyll](https://jekyllrb.com/) website on [surge.sh](htt
 Create ``.env``, and add your own settings.
 
     DOMAIN=coolsite.surge.sh
-    SLACKURL=
+    SLACKURL=https://hooks.slack.com/services/XXXXXXXXXXXXXXXXXXX
     SLACKTEXT: 'Deployed http://coolsite.surge.sh!',
     SLACKCHANNEL: '#general',
     SLACKUSERNAME: 'Deployment',
