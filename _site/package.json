@@ -1,0 +1,22 @@
+{
+  "name": "jurge",
+  "version": "1.0.0",
+  "description": "Jekyll on Surge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jekyll",
+    "surge"
+  ],
+  "author": "Urban Sanden",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "gulp": "*",
+    "gulp-slack": "^0.1.0",
+    "require-dir": "*",
+    "run-sequence": "^1.1.5"
+  }
+}

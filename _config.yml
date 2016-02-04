@@ -1,0 +1,15 @@
+# the language
+lang: en
+author:
+  name: Urban Sanden
+  email: urban@sprintworks.se
+  twitter: urre
+# title and description
+title: Jurge
+description: Simple Jekyll on Surge.sh
+url: jurge.surge.sh
+css: src/style.css
+script: src/main.js
+favicon: 
+
+exclude: ["node_modules", "gulpfile.js", "gulp"]
