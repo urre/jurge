@@ -8,6 +8,8 @@ Create an ``.env``, and add your own settings.
 
     DOMAIN=coolsite.surge.sh
 
+Make sure you have [Jekyll](http://jekyllrb.com/docs/installation/) and [NodeJS](https://nodejs.org/en/) installed on your computer.
+
 ### Install
 
     npm install
