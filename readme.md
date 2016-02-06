@@ -4,6 +4,8 @@ Simple way to deploy a [Jekyll](https://jekyllrb.com/) site on [Surge.sh](https:
 
 ## Setup
 
+Clone or downlad this repo to get started. Don't forget to remove my Google Analytics tracking code from `_includes/head.html`.
+
 Create an ``.env``, and add your own settings.
 
     DOMAIN=coolsite.surge.sh
