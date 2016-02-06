@@ -16,13 +16,13 @@ Make sure you have [Jekyll](http://jekyllrb.com/docs/installation/) and [NodeJS]
 
     npm install
 
-### Surge *(optional)*
+### Surge
 
 Surge is very simple to get started with. [Read more](https://surge.sh/tour)
 
     npm install --g surge
 
-### Slack
+### Slack *(optional)*
 
 Want to notify your Slack Team? 👫. Just add an Incoming WebHook to the channel you want to notify.
 
