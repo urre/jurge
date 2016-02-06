@@ -22,7 +22,7 @@ Surge is very simple to get started with. [Read more](https://surge.sh/tour)
 
     npm install --g surge
 
-### Slack
+### Slack *(optional)*
 
 Want to notify your Slack Team? 👫. Just add an Incoming WebHook to the channel you want to notify.
 
@@ -33,6 +33,12 @@ Add this to your `.env`
     SLACKCHANNEL: '#general',
     SLACKUSERNAME: 'Deployment',
     SLACKICONEMOJI: ':taco:',
+
+## Develop
+
+    jekyll serve
+
+Open up your browser on [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
 
 ## Deploy
 
