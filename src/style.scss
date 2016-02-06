@@ -28,7 +28,6 @@ html {
 body {
     background-color: white;
     margin: 1rem;
-    min-height: 100vh;
     line-height: 1.5;
     font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",sans-serif;
     -webkit-font-feature-settings: "dlig","kern","liga";
@@ -36,6 +35,7 @@ body {
     -webkit-font-smoothing: antialiased;
     font-weight: 300;
     font-size: 150%;
+    padding: 2rem;
 }
 
 pre {
@@ -48,7 +48,7 @@ pre {
 }
 
 a {
-  color: #333;
+  color: #D40083;
   text-decoration: none;
   background-image: linear-gradient(transparent 50%, currentColor 50%);
   background-repeat: repeat-x;
@@ -60,10 +60,15 @@ a {
 }
 
 a:hover {
-  color: #00BEC6;
-  -webkit-background-image: linear-gradient(transparent 50%, #00BEC6 50%);
+  color: #BD00C6;
+  -webkit-background-image: linear-gradient(transparent 50%, #BD00C6 50%);
 }
 
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
 
 ul,
 ol {
@@ -74,4 +79,19 @@ ol {
     max-width: 45rem;
     margin: 0 auto;
     padding: 1rem;
+}
+
+img {
+  height: 40px;
+  max-width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (min-width: 50em) {
+
+  img {
+    height: 100px;
+    max-width: 100px;
+  }
 }

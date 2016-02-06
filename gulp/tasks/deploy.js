@@ -11,7 +11,7 @@ var slack = require('gulp-slack') ({
 Deploy, run tasks in sequence
 -------------------------------------------------------------------*/
 gulp.task('deploy', function(done) {
-    runSequence('jekyll', 'cname', 'surge', 'slack', function() {
+    runSequence('jekyll', 'cname', 'surge', 'toslack', function() {
         done();
     });
 });

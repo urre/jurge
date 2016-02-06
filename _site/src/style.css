@@ -20,14 +20,14 @@ html {
 body {
   background-color: white;
   margin: 1rem;
-  min-height: 100vh;
   line-height: 1.5;
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",sans-serif;
   -webkit-font-feature-settings: "dlig","kern","liga";
   font-feature-settings: "dlig","kern","liga";
   -webkit-font-smoothing: antialiased;
   font-weight: 300;
-  font-size: 150%; }
+  font-size: 150%;
+  padding: 2rem; }
 
 pre {
   font-family: 'Menlo', monospace;
@@ -38,7 +38,7 @@ pre {
   color: #f2f2f2; }
 
 a {
-  color: #333;
+  color: #D40083;
   text-decoration: none;
   background-image: linear-gradient(transparent 50%, currentColor 50%);
   background-repeat: repeat-x;
@@ -49,8 +49,13 @@ a {
   text-shadow: -.03em 0 0 white, .03em 0 0 white, -.06em 0 0 white, .06em 0 0 white,-.09em 0 0 white,.09em 0 0 white, 0 -.03em 0 white, 0 -.06em 0 white, 0 -.09em 0 white; }
 
 a:hover {
-  color: #00BEC6;
-  -webkit-background-image: linear-gradient(transparent 50%, #00BEC6 50%); }
+  color: #BD00C6;
+  -webkit-background-image: linear-gradient(transparent 50%, #BD00C6 50%); }
+
+h1,
+h2,
+h3 {
+  font-weight: normal; }
 
 ul,
 ol {
@@ -60,3 +65,14 @@ ol {
   max-width: 45rem;
   margin: 0 auto;
   padding: 1rem; }
+
+img {
+  height: 40px;
+  max-width: 40px;
+  display: inline-block;
+  vertical-align: middle; }
+
+@media (min-width: 50em) {
+  img {
+    height: 100px;
+    max-width: 100px; } }

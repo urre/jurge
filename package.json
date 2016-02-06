@@ -16,6 +16,7 @@
     "dotenv": "^2.0.0",
     "gulp": "*",
     "gulp-slack": "^0.1.0",
+    "node-slack": "0.0.7",
     "require-dir": "*",
     "run-sequence": "^1.1.5"
   }
