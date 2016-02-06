@@ -1,6 +1,6 @@
 # Jurge
 
-Simple way to get your [Jekyll](https://jekyllrb.com/) website on [surge.sh](https://surge.sh/).
+Simple way to deploy a [Jekyll](https://jekyllrb.com/) site on [Surge.sh](https://surge.sh/)
 
 ## Setup
 
@@ -11,6 +11,12 @@ Create an ``.env``, and add your own settings.
 ### Install
 
     npm install
+
+### Surge
+
+Surge is very simple to get started with. [Read more](https://surge.sh/tour)
+
+    npm install --g surge
 
 ### Slack
 
@@ -24,12 +30,6 @@ Add this to your `.env`
     SLACKUSERNAME: 'Deployment',
     SLACKICONEMOJI: ':taco:',
 
-### Surge
-
-Surge is very simple to get started with. [Read more](https://surge.sh/tour)
-
-    npm install --g surge
-
 ## Deploy
 
     gulp deploy
@@ -41,3 +41,7 @@ Your site now lives at your domain and your Slack-team has been notified!
 ## Demo
 
 [jurge.surge.sh](http://jurge.surge.sh)
+
+## License
+
+MIT © [Urban Sandén](http://twitter.com/urre)
