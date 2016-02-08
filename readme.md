@@ -29,10 +29,10 @@ Want to notify your Slack Team? 👫. Just add an Incoming WebHook to the channe
 Add this to your `.env`
 
     SLACKURL=https://hooks.slack.com/services/XXXXXXXXXXXXXXXXXXX
-    SLACKTEXT: 'Deployed http://mycoolsite.surge.sh!',
-    SLACKCHANNEL: '#general',
-    SLACKUSERNAME: 'Deployment',
-    SLACKICONEMOJI: ':taco:',
+    SLACKTEXT='Deployed http://mycoolsite.surge.sh!'
+    SLACKCHANNEL='#general'
+    SLACKUSERNAME='Deployment'
+    SLACKICONEMOJI=':taco:'
 
 ## Develop
 
