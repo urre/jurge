@@ -10,6 +10,6 @@ description: Simple Jekyll on Surge.sh
 url: jurge.surge.sh
 css: src/style.css
 script: src/main.js
-favicon: 
+favicon: src/og.jpg
 
 exclude: ["node_modules", "gulpfile.js", "gulp"]
